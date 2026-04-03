@@ -6,4 +6,4 @@ Some testing of the grad.io library for exposing ML models, LLMs etc
 
 Run with
 
-`uv run --env-file .env python main.py`
+`uv run --env-file .env python app.py`
