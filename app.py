@@ -1,4 +1,4 @@
-import os
+'''Gradio demo page to expose LLM functionality'''
 import gradio as gr
 from openai import OpenAI
 
