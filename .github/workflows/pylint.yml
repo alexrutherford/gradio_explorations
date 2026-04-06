@@ -25,4 +25,4 @@ jobs:
 
       - name: Run pylint
         run: |
-          uv run pylint your_package/
+          uv run pylint app.py
