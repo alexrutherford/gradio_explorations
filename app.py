@@ -34,7 +34,7 @@ demo = gr.Interface(
 )
 
 demo = gr.ChatInterface(
-    fn=chat_reponse, 
+    fn=chat_reponse 
 )
 
 demo.launch()
