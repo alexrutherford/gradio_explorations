@@ -30,11 +30,9 @@ demo = gr.Interface(
     fn=llm_wrapper,
     inputs=["text"],
     outputs=["text"],
-    api_name="predict"
-)
+    api_name="predict")
 
 demo = gr.ChatInterface(
-    fn=chat_reponse 
-)
+    fn=chat_reponse)
 
 demo.launch()
