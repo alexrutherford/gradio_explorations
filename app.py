@@ -1,5 +1,5 @@
 '''Gradio demo page to expose LLM functionality'''
-import json
+#import json
 import gradio as gr
 from openai import OpenAI
 
@@ -35,6 +35,6 @@ demo = gr.Interface(
 
 demo = gr.ChatInterface(
     fn=chat_reponse, 
-).launch()
+)
 
 demo.launch()
